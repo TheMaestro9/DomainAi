@@ -1,0 +1,51 @@
+Skill,Skill Class,Primary Tag,Secondary Tag,Description
+ActionScript,PROG,DEV-(GAME /FREND),-,Programing language used in game development
+Alice,PROG,TCH-GAME,-,Educational language to build simple games
+C++,PROG,DEV-(WINAP/LNXAP/EMB/GAME),DEV-NET,-
+Java,PROG,DEV-(DT /BKEND )/TEST-WEB,-,-
+MATLAB,PROG,PROT-AI / TCH-AI,-,-
+Ruby,PROG,DEV-WEB,DEV-DT,-
+Swift (Apple programming language),PROG,DEV-(MACAP /IOSAP),-,-
+Mongo DB,DB,DEV-NOSQL,-,-
+Appium,TECH,TEST-MOBAP,-,-
+Blockchain,TECH,DEV-BKEND,-,-
+Maven,TECH,MNG-(DTAP /WEB /ANDRAP),-,-
+REST,TECH,*-(NET-WEB),-,-
+CUDA,TECH,DEV-(DS / AI / GAME),-,-
+IPv6,STD,*-NET,-,-
+UTF-8,STD,*-SOFT,-,Character encoding
+SOAP,STD,*-NPROT / *-BKEND,-,Messaging protocol
+NTP,STD,*-NPROT,-,Network protocol
+InterOPS,STD,DEV-(BKEND/WINAP),-,-
+ISO 19005-1,STD,*-IT,-,Standard for storing PDF files for long term
+MHTML,STD,*-FREND,-,File extension for a Web page archive file format
+UN/CEFACT Cross,STD,*-(MGMT/FIN) / SELL-*,-,United Nations Centre for Trade Facilitation and Electronic Business.
+VOCAB-DCAT,STD,*-WEB,-,vocabulary designed to facilitate interoperability between data catalogs published on the Web
+WAP,STD,*-NPROT,-,Standard for accessing information over a mobile wireless network
+WS – Security,STD,*-NSEC / SECU-BKEND,-,specification that defines how security measures are implemented in web services
+xCBL,STD,*-(MGMT/FIN) / SELL-*,-,XML component library for business-to-business e-commerce.
+ISO 20000,STD,MNG-IT,-,standard that describes the requirements for an information technology service management system
+ITIL Expert,CERT,*-IT,-,Information Technology Infrastructure Library
+Project Management Professional PMP,CERT,*-PRJMG,-,Global certificate for project management
+VMware Certified Professional 6 – Data Center Virtualization,CERT,ADMIN-CLDINF,-,VMware product adminstration certificate
+Cisco Certified Network Associate CCNA,CERT,*-NET,-,Networks Certification
+Master Degree of Computer Science,DEG,DEV-* / *-SOFT,-,Master Degree in Computer Science
+Master of Business Administration MBA – Marketing,DEG,*-MGMT,-,Master Degree in Bussiness Adminstration
+Cisco Security Manager,ENTSOFT,(MAN/ADMIN)-NSEC,-,Enterprise solution that manage a wide range of Cisco security devices.
+CiscoWorks Network Management software,ENTSOFT,MNG-NET,-,Networks Managememnt tool (Cisco Prime)
+NetApp ONTAP Data Security,ENTSOFT,SECU-(NSEC/STOSEC),-,Data Security tool
+NetApp Snapshot,ENTSOFT,DO-BKUP,-,Backup and Recovery Software
+HP Business Availability Center (BAC),ENTSOFT,IN-BI,-,Availability and performance management tool
+HP Connect It CIT,ENTSOFT,IN-EAPI,-,Enterprise application integration tool
+Palo Alto WildFire,ENTSOFT,AUTO-NSEC,-,Malware analysis tool
+ServiceNow Survey and Assessment,ENTSOFT,ITSM,-,Surveys and Assessments
+Oracle Call Interface,ENTSOFT,DEV-SQL,-,"High performance, native C language interface to Oracle Database "
+Oracle Clusterware,ENTSOFT,IN-CLD/DEV-SQL,-,Software that allows clustering of servers so that they cooperate as a single system
+Oracle Warehouse Builder,ENTSOFT,IN-BGDT,-,"Single, comprehensive tool for all aspects of data integration"
+Microsoft Dos,ENTSOFT,IS-DTOS,-,Operating system for x86-based personal computers
+Microsoft Azure,ENTSOFT,DEV-CLDAP,-,Cloud applications platform
+SAP Anywhere,ENTSOFT,IN-(CRM-ERP),-,operation management solution that provides customer relationship management functionality
+SAP Exchange Infrastructure (XI),ENTSOFT,IN-EAPI,-,enterprise application integration
+VMware vCenter Server,ENTSOFT,MNG-CLD,-,Deploy and Serve virtual computers.
+VMware vSphere Hypervisor,ENTSOFT,DO-CLD,-,deploying and serving virtual computers.
+IBM UniData,ENTSOFT,DEV-DB,-,IBM Database

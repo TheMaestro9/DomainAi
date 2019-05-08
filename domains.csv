@@ -1,0 +1,109 @@
+Domain,Abbreviation,Parents,Children,Comp Domains
+Hardware,HARD,-,ELEC / EMB / LOGIC,INFRA-4
+Networks ,NET ,- ,NPROT/NINF/NAUTO/NSEC/NOS,-
+Software Development,SOFT,-,DT/GAME/WEB/APSEC/MOB/FRMW/PRLCMP/MIDW,IT-3/DEV-1
+DataBase,DB,-,SQL / NOSQL,BKEND-1/STO-3
+OS,OS,-,NOS/DTOS/MOBOS/ICOS/SRVOS,-
+Infrastructure,INFRA,-,NINF/REDINF/CLDINF/MOBINF/SRVINF/SECINF/BKINF/DTINF/STOINF,HARD-4
+Server ,SRV,-,SRVOS/SRVINF,-
+BackUp,BKUP,-,BKINF,-
+Cloud,CLD,-,CLDINF/CLDAP/PRLCMP,ML-1
+Security,SEC,-,APSEC/NSEC/HRDSEC/SRVSEC/STOSEC,SECU-1
+Storage,STO,-,STOINF/STOSEC,DB-3
+Redundancy,RED,-,REDINF,-
+AI,AI,-,BI/DS/ML/CMPVSN/BGDT,-
+Graphics,GRPH,-,GAME/IMG/VID,GDES-1
+Management,MGMT,-,PRJMG/PROCMG/TSKMG,MNG-1
+Industries,IND,-,SCI/HC/MAN/TRAN/TELE/IT,-
+Others,OTHER,-,BGDT/IMG/VID/HR/COL/CRM/EMAIL/RPRT/BIL/ERP/FIN/GSM,-
+Action,ACTION,-,DEV/TEST/TCH/MNG/IMP/SUP/ADES/GDES/PROC/SELL/PROT/SECU/ADIMIN/*/AUTO/DO/IS/IN,-
+Electronics,ELEC,HARD,-,-
+Embedded ,EMB,HARD / FRMW,-,BKEND-3
+Logic,LOGIC,HARD,-,-
+Hardware Security,HRDSEC,HARD / SEC,-,-
+Network Portocol,NPROT,NET,-,-
+Network Infrastructure,NINF,NET/ INFRA,-,-
+Network Os ,NOS,NET / OS,-,-
+Network Automation,NAUTO,NET,-,-
+Network Security,NSEC,NET / SEC,-,-
+Desktop,DT ,SOFT,DTAP/DTOS,DTINF-2
+Game,GAME,SOFT/GRPH,-,AIALG-2/MOBAP-2/DTAP-2
+Web,WEB ,SOFT,BKEND/FREND/CLDAP,-
+App Security,APSEC,SOFT / SEC,-,-
+Mobile,MOB ,SOFT,MOBOS/MOBAP,MOBINF-2
+Firmware,FRMW,SOFT,EMB/ICOS,-
+Paralled Computing,PRLCMP,SOFT / CLD,-,-
+Middleware,MIDW,SOFT,-,-
+Desktop Apps ,DTAP,DT,WINAP/MACAP/LNXAP,DB-2/BKEND-2/GAME-2/AIALG-3/ML-2
+Desktop OS,DTOS,DT/OS,-,-
+Back End ,BKEND,WEB,-,DB-1/DTAP-2/MOBAP-2/EMB-3
+Front End ,FREND,WEB,-,-
+Cloud App,CLDAP,WEB / CLD,-,-
+Moblie Apps,MOBAP,MOB,ANDRAP/IOSAP/HYBAP,DB-2/BKEND-2/GAME-2/AIALG-4
+Moblie Os,MOBOS,MOB/OS,-,-
+Ic Board Os,ICOS,FRMW/OS,-,-
+Windows Application,WINAP ,DTAP,-,-
+Mac Application,MACAP ,DTAP,-,-
+Linux Application,LNXAP ,DTAP,-,-
+Android,ANDRAP ,MOBAP,-,-
+Hybrid,HYBAP ,MOBAP,-,-
+Ios,IOSAP ,MOBAP,-,-
+Sql,SQL,DB,-,-
+NoSql,NOSQL,DB,-,-
+Server Os,SRVOS,SRV/OS,-,-
+Server Security,SRVSEC,SRV/SEC,-,-
+Storage Infrastructure,STOINF,INFRA/STO,-,-
+Redundancy Infrastructure,REDINF,INFRA/RED,-,-
+Cloud Infrastructure,CLDINF,INFRA/CLD,-,ML-4
+Desktop Infrastructure,DTINF,INFRA,-,DT-2
+Moblie Infrastructure,MOBINF,INFRA,-,MOB-2
+Server Infrastructure,SRVINF,INFRA/SRV,-,-
+Security Infrastructure,SECINF,INFRA/SEC,-,SECU-3
+Backup Infrastructure,BKINF,BKUP/INFRA,-,-
+Storage Security,STOSEC,STO/SEC,-,-
+Bussiness Intelligence,BI,AI,-,-
+Data Science ,DS,AI,-,-
+Machine Learning,ML,AI,-,CLD-1/DTAP-2
+Computer Vision,CMPVSN,AI,-,-
+Big Data ,BGDT,AI,-,-
+AI Algorithms,AIALG,AI,-,GAME-2/DTAP-3/MOBAP-4
+Image,IMG,GRPH,-,-
+Video,VID,GRPH,-,-
+Science,SCI,IND,-,-
+Health Care,HC,IND,-,-
+Manufacturing,MAN,IND,-,-
+Transportation,TRAN,IND,-,-
+Telecom,TELE,IND,-,-
+IT,IT,IND,ITSM/EAPI,SOFT-3
+IT Service Management,ITSM,IT,-,-
+Comp Domains,EAPI,IT,-,-
+HR,HR,OTHER,-,-
+Collaboration,COL,OTHER,-,-
+CRM,CRM,OTHER,-,SELL-1
+Emails,EMAIL,OTHER,-,-
+Reporting,RPRT,OTHER,-,-
+Billing,BIL,OTHER,-,-
+ERP,ERP,OTHER,-,-
+Finance,FIN,OTHER,-,-
+GSM,GSM,OTHER,-,-
+Project Managment ,PRJMG,MGMT,-,-
+Process Management,PROCMG,MGMT,-,-
+Task Management,TSKMG,MGMT,-,-
+Develop,DEV,ACTION,-,SOFT-1
+Test,TEST,ACTION,-,-
+Teach,TCH,ACTION,-,-
+Manage,MNG,ACTION,-,MGMT-1
+Implement,IMP,ACTION,-,-
+Support,SUP,ACTION,-,-
+Architecture Desgin,ADES,ACTION,-,-
+Graphical Desgin,GDES,ACTION,-,GRPH-1
+Process,PROC,ACTION,-,-
+Sell,SELL,ACTION,-,CRM-1
+Prototype,PROT,ACTION,-,-
+Secure,SECU,ACTION,-,SEC-1
+Adminstrate,ADMIN,ACTION,-,-
+Automate,AUTO,ACTION,-,-
+*,*,ACTION,-,-
+Do,DO,ACTION,-,-
+IS,IS,ACTION,-,-
+IN,IN,ACTION,-,-
